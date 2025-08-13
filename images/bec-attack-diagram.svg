@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Business Email Compromise Attack Flow</text>
+  
+  <!-- Step 1: Reconnaissance -->
+  <rect x="20" y="60" width="160" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
+  <text x="100" y="90" text-anchor="middle" font-size="14" font-weight="bold">1. Reconnaissance</text>
+  <text x="100" y="110" text-anchor="middle" font-size="12">• Study organization</text>
+  <text x="100" y="125" text-anchor="middle" font-size="12">• Identify targets</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="180" y1="100" x2="220" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Compromise -->
+  <rect x="220" y="60" width="160" height="80" rx="10" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="300" y="90" text-anchor="middle" font-size="14" font-weight="bold">2. Compromise</text>
+  <text x="300" y="110" text-anchor="middle" font-size="12">• Phishing attack</text>
+  <text x="300" y="125" text-anchor="middle" font-size="12">• Credential theft</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="380" y1="100" x2="420" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Monitor -->
+  <rect x="420" y="60" width="160" height="80" rx="10" fill="#e0e7ff" stroke="#6366f1"/>
+  <text x="500" y="90" text-anchor="middle" font-size="14" font-weight="bold">3. Monitor</text>
+  <text x="500" y="110" text-anchor="middle" font-size="12">• Read emails</text>
+  <text x="500" y="125" text-anchor="middle" font-size="12">• Learn patterns</text>
+  
+  <!-- Arrow 3 -->
+  <line x1="580" y1="100" x2="620" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Execute -->
+  <rect x="620" y="60" width="160" height="80" rx="10" fill="#dcfce7" stroke="#22c55e"/>
+  <text x="700" y="90" text-anchor="middle" font-size="14" font-weight="bold">4. Execute</text>
+  <text x="700" y="110" text-anchor="middle" font-size="12">• Send fake invoice</text>
+  <text x="700" y="125" text-anchor="middle" font-size="12">• Request wire transfer</text>
+  
+  <!-- Impact Box -->
+  <rect x="250" y="200" width="300" height="120" rx="10" fill="#fff" stroke="#dc2626" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="230" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc2626">Impact</text>
+  <text x="400" y="255" text-anchor="middle" font-size="14">Average Loss: $130,000</text>
+  <text x="400" y="275" text-anchor="middle" font-size="14">Response Time: Critical (Minutes)</text>
+  <text x="400" y="295" text-anchor="middle" font-size="14">Recovery: Difficult</text>
+</svg>
