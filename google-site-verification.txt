@@ -1,0 +1,10 @@
+google-site-verification: [YOUR-VERIFICATION-CODE-HERE]
+
+# Instructions:
+# 1. Go to Google Search Console: https://search.google.com/search-console
+# 2. Add your property: https://www.prolance.com.au
+# 3. Choose "HTML file" verification method
+# 4. Download the verification file they provide
+# 5. Replace this file with the one from Google
+# 6. Or copy the verification code and replace [YOUR-VERIFICATION-CODE-HERE] above
+# 7. Deploy the site and verify ownership in Search Console
